@@ -1,0 +1,9 @@
+[versions]
+shadow = "9.0.0-beta2"
+asm = "9.7.1"
+
+[libraries]
+asm = { module = "org.ow2.asm:asm", version.ref = "asm" }
+
+[plugins]
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow" }
